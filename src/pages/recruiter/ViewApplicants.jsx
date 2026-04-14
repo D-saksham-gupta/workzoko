@@ -209,7 +209,7 @@ const ViewApplicants = () => {
 
                     {app.resume && (
                       <a
-                        href={`http://localhost:5000/${app.resume}`}
+                        href={`https://workzoko-backend.onrender.com/${app.resume}`}
                         target="_blank"
                         rel="noreferrer"
                         className="text-xs text-blue-600 hover:underline font-medium"
